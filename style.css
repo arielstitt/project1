@@ -14,3 +14,9 @@ button {
     background-color: red;
     color: aliceblue;
 }
+.col-sm {
+    background-color: blueviolet;
+}
+.cat-btn {
+    background-color: aqua;
+}

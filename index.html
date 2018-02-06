@@ -1,32 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">    
-    </head>
-    <title>Jeopardy!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
+<title>Jeopardy!</title>
+</head>
+
 <body>
-    <h1>Jeopardy!</h1>
-    <div>
-        <button id="100-points">100</button>
-        <br>
-        <button id="200-points">200</button>
-        <br>
-        <button id="300-points">300</button>
-        <br>
-        <button id="400-points">400</button>
-        <br>
-        <button id="500-points">500</button>
-    </div>
-    
-        <div >
-            <button id="final-answer">Final Answer</button>
+    <!-- container for the board game -->
+    <div class"game-board-grid" id="game-bord-container">
+        <!-- the category div with the corresponding column inside -->
+        <!-- category 1 -->
+        <div id="cat-1">
+            <div id="cat-1-column">
+                    <button class="cat-btn">Category 1</button>
+                    <button id="100-points">100</button>
+                    <button id="200-points">200</button>
+                    <button id="300-points">300</button>
+                    <button id="400-points">400</button>
+                    <button id="500-points">500</button>
+            </div>
+        </div>
+        <!-- category 2 -->
+        <div id="cat-2">
+            <div id="cat-2-column">
+                    <button class="cat-btn">Category 2</button>
+                    <button id="100-points">100</button>
+                    <button id="200-points">200</button>
+                    <button id="300-points">300</button>
+                    <button id="400-points">400</button>
+                    <button id="500-points">500</button>
+            </div>
+        </div>
+        <!-- category 3 -->
+        <div id="cat-3">
+                <div id="cat-2-column">
+                        <button class="cat-btn">Category 3</button>
+                        <button id="100-points">100</button>
+                        <button id="200-points">200</button>
+                        <button id="300-points">300</button>
+                        <button id="400-points">400</button>
+                        <button id="500-points">500</button>
+                </div>
+            </div>
+        <!-- category 4 -->
+        <div id="cat-4">
+                <div id="cat-2-column">
+                        <button class="cat-btn">Category 4</button>
+                        <button id="100-points">100</button>
+                        <button id="200-points">200</button>
+                        <button id="300-points">300</button>
+                        <button id="400-points">400</button>
+                        <button id="500-points">500</button>
+                </div>
+            </div>
+        <!-- category 5 -->
+        <!-- <div id="cat-5">
+                <div id="cat-2-column">
+                        <button>Category 5</button>
+                        <button id="100-points">100</button>
+                        <button id="200-points">200</button>
+                        <button id="300-points">300</button>
+                        <button id="400-points">400</button>
+                        <button id="500-points">500</button>
+                </div>
+            </div> -->
+            <!-- end of category abd corresponding columns -->
         </div>
     
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="app.js"></script>   
+    </div>
+        </div>
+        <h1>Jeopardy!</h1>
+        <!-- <div>
+            <button id="100-points">100</button>
+            <br>
+            <button id="200-points">200</button>
+            <br>
+            <button id="300-points">300</button>
+            <br>
+            <button id="400-points">400</button>
+            <br>
+            <button id="500-points">500</button>
+        </div> -->
+
+        <div>
+            <button id="final-answer">Final Answer</button>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="app.js"></script>
 </body>
+
 </html>
