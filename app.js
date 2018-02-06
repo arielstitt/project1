@@ -1,12 +1,34 @@
 // alert('this is working')
 
 // The buttons is linked to an onclick function
-$(`#100-points`).click(function(){   
-    prompt("these 2 numbers added together equals 4")
+$(`#100-points`).click(function(){  
+// The answer 
+    // prompt("these numbers added together equals")
+    // const answer;
+    // if (answer === 2) {
+    //     alert("You is smart. You is kind. You is important.")
+    // } else {
+    //     alert("YOU SHOULD BE ASHAMED!")
+    // }
+
+// 
+    const question = prompt("These two numbers added together equals 4")
+    console.log(question)
+if(question === "2") {
+alert("You is kind. You is smart. Is important")
+} else {
+alert("SHAME! SHAME! SHAME!")
+
+}
 })
 
 $(`#200-points`).click(function(){   
-    prompt("An animal with a three letter word that uses a litter box")
+    const question = prompt("An animal with a three letter word that uses a litter box")
+    if(){
+
+    }else {
+        alert("wow...just wow")
+    }
 })
 
 $(`#300-points`).click(function(){   
