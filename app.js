@@ -122,3 +122,60 @@ $(`#sci-500`).click(function(){
         alert(`incorrect`)
     }
 })
+// ANIMALS TRIVIA QUESTIONS
+
+$(`#anm-100`).click(function(){
+    const question = prompt(`anm question 100
+    a. 
+    b.
+    c.`)
+    if (question === "a") {
+        alert(`correct`)
+    } else {
+        alert(`incorrect`)
+    }
+})
+$(`#anm-200`).click(function(){
+    const question = prompt(`anm question 200
+    a. 
+    b.
+    c.`)
+    if (question === "a") {
+        alert(`correct`)
+    } else {
+        alert(`incorrect`)
+    }
+})
+$(`#anm-300`).click(function(){
+    const question = prompt(`anm question 300
+    a. 
+    b.
+    c.`)
+    if (question === "a") {
+        alert(`correct`)
+    } else {
+        alert(`incorrect`)
+    }
+})
+$(`#anm-400`).click(function(){
+    const question = prompt(`anm question 400
+    a. 
+    b.
+    c.`)
+    if (question === "a") {
+        alert(`correct`)
+    } else {
+        alert(`incorrect`)
+    }
+})
+$(`#anm-500`).click(function(){
+    const question = prompt(`anm question 500
+    a. 
+    b.
+    c.`)
+    if (question === "a") {
+        alert(`correct`)
+    } else {
+        alert(`incorrect`)
+    }
+})
