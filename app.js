@@ -57,4 +57,11 @@ $(`#500-points`).click(function(){
         alert("Cape town would be disapointed ")
     }
 })
-
+$(`#final-answer`).click(function(){   
+    const question = prompt("How much wood could a woodchuck chuck if a woodchuck couldn't chuck wood?")
+    if (question === "42") {
+        alert("I cant belive you guessed it!")
+    } else {
+        alert("maybeeeeee?")
+    }
+})
