@@ -38,7 +38,7 @@ $(`.200-points`).click(function(){
     }
 })
 
-$(`#300-points`).click(function(){   
+$(`.300-points`).click(function(){   
     const question = prompt(`A three letter word that is used to refer to a mother
     a. cat
     b. dog
@@ -50,7 +50,7 @@ $(`#300-points`).click(function(){
     }
 })
 
-$(`#400-points`).click(function(){   
+$(`.400-points`).click(function(){   
     const question = prompt(`99 is before this number
     a. One hundred twenty-five thousand sic hundred minutes
     b. peanuts
@@ -62,7 +62,7 @@ $(`#400-points`).click(function(){
     }
 })
 
-$(`#500-points`).click(function(){   
+$(`.500-points`).click(function(){   
     const question = prompt(`H2O is another name for this essential life force
     a. boogers
     b. water
