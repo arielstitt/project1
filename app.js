@@ -1,6 +1,6 @@
 // alert('this is working')
 // The buttons is linked to an onclick function
-$(`#100-points`).click(function(){  
+$(`.100-points`).click(function(){  
 // The answer 
     // prompt("these numbers added together equals")
     // const answer;
@@ -18,14 +18,14 @@ $(`#100-points`).click(function(){
     `)
     console.log(question)
 if(question === "a") {
-alert(`You is kind. You is smart. Is important`)
+alert(`correct`)
 } else {
-alert("SHAME! SHAME! SHAME!")
+alert(`incorrect`)
 
 }
 })
 
-$(`#200-points`).click(function(){   
+$(`.200-points`).click(function(){   
     const question = prompt(`An animal with a three letter word that uses a litter box
     a. trash panda
     b. cat
