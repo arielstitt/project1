@@ -20,10 +20,11 @@ $(".500-points").one("click", function(){
 });
 // FOOD AND WINE CAT QUESTIONS
 $(`#fnw-100`).click(function(){
-    const question = prompt(`fnw question 100
-    a. 
-    b.
-    c.`)
+    const question = prompt(`Malbec, sangiovese, and syrah are all types of what?
+    a. What is Wine
+    b. What is Countries
+    c. What is Pharaohs
+    `)
 if (question === "a") {
         alert(`correct`)
 //   thisi is where I am removing this class and adding a class
@@ -34,7 +35,7 @@ if (question === "a") {
       totalPoints += 100
       $('.playerscore').html(`Score: ${totalPoints}`)
     } else {
-        alert(`incorrect`)
+        alert(`Incorrect. The answer is Wine`)
 //  if the user answers the question incorrectly, change the color to red
        $(`#fnw-100`).removeClass(`answers`)
       $(`#fnw-100`).addClass(`wrong-answer`)
@@ -43,11 +44,12 @@ if (question === "a") {
     }
 })
 $(`#fnw-200`).click(function(){
-        const question = prompt(`fnw question 200
-        a. 
-        b.
-        c.`)
-if (question === "a") {
+        const question = prompt(`fWhat common kitchen item is made up of sodium and chlorine atons
+        a. What is Sugar
+        b. What is Baking soda
+        c. What is Salt
+        `)
+if (question === "c") {
             alert(`correct`)
 //   thisi is where I am removing this class and adding a class
 //   if user answer the question correctly change the color of the btn to purple
@@ -56,7 +58,7 @@ if (question === "a") {
           totalPoints += 200
           $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
-            alert(`incorrect`)
+            alert(`Incorrect. The answer is Salt`)
 //  if the user answers the question incorrectly, change the color to red
            $(`#fnw-200`).removeClass(`answers`)
           $(`#fnw-200`).addClass(`wrong-answer`)
@@ -65,18 +67,19 @@ if (question === "a") {
         }
     })
 $(`#fnw-300`).click(function(){
-        const question = prompt(`fnw question 300
-        a. 
-        b.
-        c.`)
-  if (question === "a") {
+        const question = prompt(`Cheddar cheese originated in this country
+        a. What is France
+        b. What is Germany
+        c. What is England
+        `)
+  if (question === "c") {
             alert(`correct`)
           $(`#fnw-300`).removeClass(`answers`)
           $(`#fnw-300`).addClass(`right-answer`)
           totalPoints += 300
           $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
-            alert(`incorrect`)
+            alert(`incorrect. The answer is England.`)
            $(`#fnw-300`).removeClass(`answers`)
           $(`#fnw-300`).addClass(`wrong-answer`)
           totalPoints += 300
@@ -84,18 +87,19 @@ $(`#fnw-300`).click(function(){
         }
     })
 $(`#fnw-400`).click(function(){
-        const question = prompt(`fnw question 400
-        a. 
-        b.
-        c.`)
- if (question === "a") {
+        const question = prompt(`“Caviar” is the salt-cured roe of what fish?
+        a. Salmon
+        b. Beluga
+        c. Sturgeon
+        `)
+ if (question === "c") {
             alert(`correct`)
           $(`#fnw-400`).removeClass(`answers`)
           $(`#fnw-400`).addClass(`right-answer`)
           totalPoints += 400
           $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
-            alert(`incorrect`)
+            alert(`incorrect. The answer is Sturgeon`)
            $(`#fnw-400`).removeClass(`answers`)
           $(`#fnw-400`).addClass(`wrong-answer`)
           totalPoints += 400
@@ -103,18 +107,19 @@ $(`#fnw-400`).click(function(){
         }
     })    
 $(`#fnw-500`).click(function(){
-        const question = prompt(`fnw question 500
-        a. 
-        b.
-        c.`)
-if (question === "a") {
+        const question = prompt(`This Northwest staple is made from crushed durum wheat
+        a. Fufu
+        b. Couscous
+        c. Injera
+        `)
+if (question === "b") {
             alert(`correct`)
           $(`#fnw-500`).removeClass(`answers`)
           $(`#fnw-500`).addClass(`right-answer`)
           totalPoints += 500
           $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
-            alert(`incorrect`)
+            alert(`incorrect. The answer is Couscous`)
            $(`#fnw-500`).removeClass(`answers`)
           $(`#fnw-500`).addClass(`wrong-answer`)
           totalPoints += 500
@@ -427,8 +432,8 @@ $(`#tnc-500`).click(function(){
       $(`#tnc-500`).addClass(`wrong-answer`)
       totalPoints += -500
       $('.playerscore').html(`Score: ${totalPoints}`)
-
     }
 })
+.playerscore
 
 // $('.playerscore').html(`Score: ${totalPoints}`)
