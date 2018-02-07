@@ -128,18 +128,19 @@ if (question === "b") {
     })
 // SCIENCE CAT QUESTIONS
 $(`#sci-100`).click(function(){
-    const question = prompt(`sci question 100
-    a. 
-    b.
-    c.`)
-if (question === "a") {
+    const question = prompt(`This gland regulates metabolism in the human body.
+    a. What is hypothalamus
+    b. What is Thyroid
+    c. What is pituitary gland.
+    `)
+if (question === "b") {
             alert(`correct`)
           $(`#sci-100`).removeClass(`answers`)
           $(`#sci-100`).addClass(`right-answer`)
           totalPoints += 100
           $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
-            alert(`incorrect`)
+            alert(`incorrect. The correct answer is Thyroid`)
            $(`#sci-100`).removeClass(`answers`)
           $(`#sci-100`).addClass(`wrong-answer`)
           totalPoints -= 100
@@ -147,18 +148,18 @@ if (question === "a") {
         }
     })
 $(`#sci-200`).click(function(){
-    const question = prompt(`sci question 200
-    a. 
-    b.
-    c.`)
-    if (question === "a") {
+    const question = prompt(`Hale-Bopp is a classification of which type of small solar system body?
+    a. meteor
+    b. pluto
+    c. comet`)
+    if (question === "c") {
         alert(`correct`)
       $(`#sci-200`).removeClass(`answers`)
       $(`#sci-200`).addClass(`right-answer`)
       totalPoints += 200
       $('.playerscore').html(`Score: ${totalPoints}`)
     } else {
-        alert(`incorrect`)
+        alert(`incorrect. The answer is Comet`)
        $(`#sci-200`).removeClass(`answers`)
       $(`#sci-200`).addClass(`wrong-answer`)
       totalPoints -= 200
@@ -166,18 +167,18 @@ $(`#sci-200`).click(function(){
     }
 })
 $(`#sci-300`).click(function(){
-    const question = prompt(`sci question 300
-    a. 
-    b.
-    c.`)
-if (question === "a") {
+    const question = prompt(`In the US and Canada, one ton is a unit of measure that contains how many pounds?
+    a. 3000
+    b. 2000
+    c. 1000`)
+if (question === "b") {
             alert(`correct`)
           $(`#sci-300`).removeClass(`answers`)
           $(`#sci-300`).addClass(`right-answer`)
           totalPoints += 300
           $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
-            alert(`incorrect`)
+            alert(`incorrect. The answer is 2000`)
            $(`#sci-300`).removeClass(`answers`)
           $(`#sci-300`).addClass(`wrong-answer`)
           totalPoints -= 300
@@ -185,10 +186,10 @@ if (question === "a") {
         }
     })
 $(`#sci-400`).click(function(){
-    const question = prompt(`sci question 400
-    a. 
-    b.
-    c.`)
+    const question = prompt(`The Molecule "hemoblobin" is used in which type of cells?"
+    a. Red blood cells
+    b. White blood cells
+    c. Blue blood cells`)
 if (question === "a") {
             alert(`correct`)
           $(`#sci-400`).removeClass(`answers`)
@@ -196,7 +197,7 @@ if (question === "a") {
           totalPoints += 400
           $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
-            alert(`incorrect`)
+            alert(`incorrect. The answer is Red Blood Cells`)
            $(`#sci-400`).removeClass(`answers`)
           $(`#sci-400`).addClass(`wrong-answer`)
           totalPoints -= 400
@@ -204,18 +205,18 @@ if (question === "a") {
         }
     })
 $(`#sci-500`).click(function(){
-    const question = prompt(`sci question 500
-    a. 
-    b.
-    c.`)
-if (question === "a") {
+    const question = prompt(`Penicillin was discovered in 1928 by which Scottish scientist?
+    a. Alan MacMasters
+    b. Alexander Graham Bell
+    c. Sir Alexander Fleming`)
+if (question === "c") {
             alert(`correct`)
           $(`#sci-500`).removeClass(`answers`)
           $(`#sci-500`).addClass(`right-answer`)
           totalPoints += 500
           $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
-            alert(`incorrect`)
+            alert(`incorrect. The answer is Sir ALexander Fleming.`)
             $(`#sci-500`).removeClass(`answers`)
           $(`#sci-500`).addClass(`wrong-answer`)
           totalPoints -= 500
