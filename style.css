@@ -45,3 +45,22 @@ button {
  padding: 40px;
  margin: 80px;
 }
+.wrong-answer {
+    background-color: red;
+    color: aliceblue;
+    padding: 30px;
+    width: 20vw;
+}
+.right-answer {
+    background-color: purple;
+    color: aliceblue;
+    padding: 30px;
+    width: 20vw;
+  
+}
+.answers {
+    background-color: lightgreen;
+    color: aliceblue;
+    padding: 30px;
+    width: 20vw;
+}
