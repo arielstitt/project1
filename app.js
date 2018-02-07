@@ -1,15 +1,22 @@
 // alert('this is working')
 // The buttons is linked to an onclick function
- 
-// The answer 
-    // prompt("these numbers added together equals")
-    // const answer;
-    // if (answer === 2) {
-    //     alert("You is smart. You is kind. You is important.")
-    // } else {
-    //     alert("YOU SHOULD BE ASHAMED!")
-    // }
-
+$(".100-points").one("click", function(){
+    // $(`.100-points`).removeClass(`.answers`)
+    // $(`.100-points`).addClass(`.right-answer`)
+    $(this).attr("disabled", true)
+});
+$(".200-points").one("click", function(){
+    $(this).attr("disabled", true);
+});
+$(".300-points").one("click", function(){
+    $(this).attr("disabled", true);
+});
+$(".400-points").one("click", function(){
+    $(this).attr("disabled", true);
+});
+$(".500-points").one("click", function(){
+    $(this).attr("disabled", true);
+});
 // FOOD AND WINE CAT QUESTIONS
 
 $(`#fnw-200`).click(function(){
