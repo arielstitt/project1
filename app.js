@@ -18,7 +18,24 @@ $(".500-points").one("click", function(){
     $(this).attr("disabled", true);
 });
 // FOOD AND WINE CAT QUESTIONS
-
+$(`#fnw-100`).click(function(){
+    const question = prompt(`fnw question 100
+    a. 
+    b.
+    c.`)
+if (question === "a") {
+        alert(`correct`)
+//   thisi is where I am removing this class and adding a class
+//   if user answer the question correctly change the color of the btn to purple
+      $(`#fnw-100`).removeClass(`answers`)
+      $(`#fnw-100`).addClass(`right-answer`)
+    } else {
+        alert(`incorrect`)
+//  if the user answers the question incorrectly, change the color to red
+       $(`#fnw-100`).removeClass(`answers`)
+      $(`#fnw-100`).addClass(`wrong-answer`)
+    }
+})
 $(`#fnw-200`).click(function(){
         const question = prompt(`fnw question 200
         a. 
@@ -165,10 +182,14 @@ $(`#anm-100`).click(function(){
     a. 
     b.
     c.`)
-    if (question === "a") {
+if (question === "a") {
         alert(`correct`)
+      $(`#anm-100`).removeClass(`answers`)
+      $(`#anm-100`).addClass(`right-answer`)
     } else {
         alert(`incorrect`)
+       $(`#anm-100`).removeClass(`answers`)
+      $(`#anm-100`).addClass(`wrong-answer`)
     }
 })
 $(`#anm-200`).click(function(){
@@ -178,8 +199,12 @@ $(`#anm-200`).click(function(){
     c.`)
     if (question === "a") {
         alert(`correct`)
+      $(`#anm-200`).removeClass(`answers`)
+      $(`#anm-200`).addClass(`right-answer`)
     } else {
         alert(`incorrect`)
+       $(`#anm-200`).removeClass(`answers`)
+      $(`#anm-200`).addClass(`wrong-answer`)
     }
 })
 $(`#anm-300`).click(function(){
@@ -189,8 +214,12 @@ $(`#anm-300`).click(function(){
     c.`)
     if (question === "a") {
         alert(`correct`)
+      $(`#anm-300`).removeClass(`answers`)
+      $(`#anm-300`).addClass(`right-answer`)
     } else {
         alert(`incorrect`)
+       $(`#anm-300`).removeClass(`answers`)
+      $(`#anm-300`).addClass(`wrong-answer`)
     }
 })
 $(`#anm-400`).click(function(){
@@ -200,8 +229,12 @@ $(`#anm-400`).click(function(){
     c.`)
     if (question === "a") {
         alert(`correct`)
+      $(`#anm-400`).removeClass(`answers`)
+      $(`#anm-400`).addClass(`right-answer`)
     } else {
         alert(`incorrect`)
+       $(`#anm-400`).removeClass(`answers`)
+      $(`#anm-400`).addClass(`wrong-answer`)
     }
 })
 $(`#anm-500`).click(function(){
@@ -211,8 +244,12 @@ $(`#anm-500`).click(function(){
     c.`)
     if (question === "a") {
         alert(`correct`)
+      $(`#anm-500`).removeClass(`answers`)
+      $(`#anm-500`).addClass(`right-answer`)
     } else {
         alert(`incorrect`)
+       $(`#anm-500`).removeClass(`answers`)
+      $(`#anm-500`).addClass(`wrong-answer`)
     }
 })
 // TV and cinema category
@@ -223,8 +260,12 @@ $(`#tnc-100`).click(function(){
     c.`)
     if (question === "a") {
         alert(`correct`)
+      $(`#tnc-100`).removeClass(`answers`)
+      $(`#tnc-100`).addClass(`right-answer`)
     } else {
         alert(`incorrect`)
+       $(`#tnc-100`).removeClass(`answers`)
+      $(`#tnc-100`).addClass(`wrong-answer`)
     }
 })
 $(`#tnc-200`).click(function(){
@@ -234,8 +275,12 @@ $(`#tnc-200`).click(function(){
     c.`)
     if (question === "a") {
         alert(`correct`)
+      $(`#tnc-200`).removeClass(`answers`)
+      $(`#tnc-200`).addClass(`right-answer`)
     } else {
         alert(`incorrect`)
+       $(`#tnc-200`).removeClass(`answers`)
+      $(`#tnc-200`).addClass(`wrong-answer`)
     }
 })
 $(`#tnc-300`).click(function(){
@@ -245,8 +290,12 @@ $(`#tnc-300`).click(function(){
     c.`)
     if (question === "a") {
         alert(`correct`)
+      $(`#tnc-300`).removeClass(`answers`)
+      $(`#tnc-300`).addClass(`right-answer`)
     } else {
         alert(`incorrect`)
+       $(`#tnc-300`).removeClass(`answers`)
+      $(`#tnc-300`).addClass(`wrong-answer`)
     }
 })
 $(`#tnc-400`).click(function(){
@@ -256,8 +305,12 @@ $(`#tnc-400`).click(function(){
     c.`)
     if (question === "a") {
         alert(`correct`)
+      $(`#tnc-400`).removeClass(`answers`)
+      $(`#tnc-400`).addClass(`right-answer`)
     } else {
         alert(`incorrect`)
+       $(`#tnc-400`).removeClass(`answers`)
+      $(`#tnc-400`).addClass(`wrong-answer`)
     }
 })
 $(`#tnc-500`).click(function(){
@@ -267,7 +320,11 @@ $(`#tnc-500`).click(function(){
     c.`)
     if (question === "a") {
         alert(`correct`)
+      $(`#tnc-500`).removeClass(`answers`)
+      $(`#tnc-500`).addClass(`right-answer`)
     } else {
         alert(`incorrect`)
+       $(`#tnc-500`).removeClass(`answers`)
+      $(`#tnc-500`).addClass(`wrong-answer`)
     }
 })
