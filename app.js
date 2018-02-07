@@ -81,12 +81,16 @@ $(`#sci-100`).click(function(){
     a. 
     b.
     c.`)
-    if (question === "a") {
-        alert(`correct`)
-    } else {
-        alert(`incorrect`)
-    }
-})
+if (question === "a") {
+            alert(`correct`)
+          $(`#sci-100`).removeClass(`answers`)
+          $(`#sci-100`).addClass(`right-answer`)
+        } else {
+            alert(`incorrect`)
+           $(`#sci-100`).removeClass(`answers`)
+          $(`#sci-100`).addClass(`wrong-answer`)
+        }
+    })
 $(`#sci-200`).click(function(){
     const question = prompt(`sci question 200
     a. 
@@ -94,8 +98,12 @@ $(`#sci-200`).click(function(){
     c.`)
     if (question === "a") {
         alert(`correct`)
+      $(`#sci-200`).removeClass(`answers`)
+      $(`#sci-200`).addClass(`right-answer`)
     } else {
         alert(`incorrect`)
+       $(`#sci-200`).removeClass(`answers`)
+      $(`#sci-200`).addClass(`wrong-answer`)
     }
 })
 $(`#sci-300`).click(function(){
@@ -103,34 +111,46 @@ $(`#sci-300`).click(function(){
     a. 
     b.
     c.`)
-    if (question === "a") {
-        alert(`correct`)
-    } else {
-        alert(`incorrect`)
-    }
-})
+if (question === "a") {
+            alert(`correct`)
+          $(`#sci-300`).removeClass(`answers`)
+          $(`#sci-300`).addClass(`right-answer`)
+        } else {
+            alert(`incorrect`)
+           $(`#sci-300`).removeClass(`answers`)
+          $(`#sci-300`).addClass(`wrong-answer`)
+        }
+    })
 $(`#sci-400`).click(function(){
     const question = prompt(`sci question 400
     a. 
     b.
     c.`)
-    if (question === "a") {
-        alert(`correct`)
-    } else {
-        alert(`incorrect`)
-    }
-})
+if (question === "a") {
+            alert(`correct`)
+          $(`#sci-400`).removeClass(`answers`)
+          $(`#sci-400`).addClass(`right-answer`)
+        } else {
+            alert(`incorrect`)
+           $(`#sci-400`).removeClass(`answers`)
+          $(`#sci-400`).addClass(`wrong-answer`)
+        }
+    })
 $(`#sci-500`).click(function(){
     const question = prompt(`sci question 500
     a. 
     b.
     c.`)
-    if (question === "a") {
-        alert(`correct`)
-    } else {
-        alert(`incorrect`)
-    }
-})
+if (question === "a") {
+            alert(`correct`)
+          $(`#sci-500`).removeClass(`answers`)
+          $(`#sci-500`).addClass(`right-answer`)
+        } else {
+            alert(`incorrect`)
+           $(`#sci-500`).removeClass(`answers`)
+          $(`#sci-500`).addClass(`wrong-answer`)
+        }
+    })
 // ANIMALS TRIVIA QUESTIONS
 
 $(`#anm-100`).click(function(){
