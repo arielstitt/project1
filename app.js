@@ -229,11 +229,15 @@ if (question === "a") {
       $(`#anm-100`).removeClass(`answers`)
       $(`#anm-100`).addClass(`right-answer`)
       totalPoints += 100
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     } else {
         alert(`incorrect`)
        $(`#anm-100`).removeClass(`answers`)
       $(`#anm-100`).addClass(`wrong-answer`)
       totalPoints -= 100
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     }
 })
 $(`#anm-200`).click(function(){
@@ -246,11 +250,15 @@ $(`#anm-200`).click(function(){
       $(`#anm-200`).removeClass(`answers`)
       $(`#anm-200`).addClass(`right-answer`)
       totalPoints += 200
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     } else {
         alert(`incorrect`)
        $(`#anm-200`).removeClass(`answers`)
       $(`#anm-200`).addClass(`wrong-answer`)
       totalPoints -= 200
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     }
 })
 $(`#anm-300`).click(function(){
@@ -263,11 +271,15 @@ $(`#anm-300`).click(function(){
       $(`#anm-300`).removeClass(`answers`)
       $(`#anm-300`).addClass(`right-answer`)
       totalPoints += 300
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     } else {
         alert(`incorrect`)
        $(`#anm-300`).removeClass(`answers`)
       $(`#anm-300`).addClass(`wrong-answer`)
       totalPoints -= 300
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     }
 })
 $(`#anm-400`).click(function(){
@@ -280,11 +292,15 @@ $(`#anm-400`).click(function(){
       $(`#anm-400`).removeClass(`answers`)
       $(`#anm-400`).addClass(`right-answer`)
       totalPoints += 400
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     } else {
         alert(`incorrect`)
        $(`#anm-400`).removeClass(`answers`)
       $(`#anm-400`).addClass(`wrong-answer`)
       totalPoints -= 400
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     }
 })
 $(`#anm-500`).click(function(){
@@ -297,11 +313,15 @@ $(`#anm-500`).click(function(){
       $(`#anm-500`).removeClass(`answers`)
       $(`#anm-500`).addClass(`right-answer`)
       totalPoints += 500
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     } else {
         alert(`incorrect`)
        $(`#anm-500`).removeClass(`answers`)
       $(`#anm-500`).addClass(`wrong-answer`)
       totalPoints -= 500
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     }
 })
 // TV and cinema category
@@ -315,11 +335,15 @@ $(`#tnc-100`).click(function(){
       $(`#tnc-100`).removeClass(`answers`)
       $(`#tnc-100`).addClass(`right-answer`)
       totalPoints += 100
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     } else {
         alert(`incorrect`)
        $(`#tnc-100`).removeClass(`answers`)
       $(`#tnc-100`).addClass(`wrong-answer`)
       totalPoints -= 100
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     }
 })
 $(`#tnc-200`).click(function(){
@@ -332,11 +356,15 @@ $(`#tnc-200`).click(function(){
       $(`#tnc-200`).removeClass(`answers`)
       $(`#tnc-200`).addClass(`right-answer`)
       totalPoints += 200
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     } else {
         alert(`incorrect`)
        $(`#tnc-200`).removeClass(`answers`)
       $(`#tnc-200`).addClass(`wrong-answer`)
       totalPoints -= 200
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     }
 })
 $(`#tnc-300`).click(function(){
@@ -349,11 +377,15 @@ $(`#tnc-300`).click(function(){
       $(`#tnc-300`).removeClass(`answers`)
       $(`#tnc-300`).addClass(`right-answer`)
       totalPoints += 300
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     } else {
         alert(`incorrect`)
        $(`#tnc-300`).removeClass(`answers`)
       $(`#tnc-300`).addClass(`wrong-answer`)
       totalPoints -= 300
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     }
 })
 $(`#tnc-400`).click(function(){
@@ -366,11 +398,15 @@ $(`#tnc-400`).click(function(){
       $(`#tnc-400`).removeClass(`answers`)
       $(`#tnc-400`).addClass(`right-answer`)
       totalPoints += 400
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     } else {
         alert(`incorrect`)
        $(`#tnc-400`).removeClass(`answers`)
       $(`#tnc-400`).addClass(`wrong-answer`)
       totalPoints -= 400
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     }
 })
 $(`#tnc-500`).click(function(){
@@ -383,11 +419,15 @@ $(`#tnc-500`).click(function(){
       $(`#tnc-500`).removeClass(`answers`)
       $(`#tnc-500`).addClass(`right-answer`)
       totalPoints += 500
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     } else {
         alert(`incorrect`)
        $(`#tnc-500`).removeClass(`answers`)
       $(`#tnc-500`).addClass(`wrong-answer`)
       totalPoints += -500
+      $('.playerscore').html(`Score: ${totalPoints}`)
+
     }
 })
 
