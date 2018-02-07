@@ -3,8 +3,7 @@ totalPoints = 0;
 
 // The buttons is linked to an onclick function
 $(".100-points").one("click", function(){
-    // $(`.100-points`).removeClass(`.answers`)
-    // $(`.100-points`).addClass(`.right-answer`)
+
     $(this).attr("disabled", true)
 });
 $(".200-points").one("click", function(){
@@ -33,13 +32,14 @@ if (question === "a") {
       $(`#fnw-100`).addClass(`right-answer`)
     //   here I am adding 100 points to the users score which will be updated in the DOM
       totalPoints += 100
+      $('.playerscore').html(`Score: ${totalPoints}`)
     } else {
         alert(`incorrect`)
 //  if the user answers the question incorrectly, change the color to red
        $(`#fnw-100`).removeClass(`answers`)
       $(`#fnw-100`).addClass(`wrong-answer`)
       totalPoints -= 100
-
+    $('.playerscore').html(`Score: ${totalPoints}`)
     }
 })
 $(`#fnw-200`).click(function(){
@@ -54,12 +54,14 @@ if (question === "a") {
           $(`#fnw-200`).removeClass(`answers`)
           $(`#fnw-200`).addClass(`right-answer`)
           totalPoints += 200
+          $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
             alert(`incorrect`)
 //  if the user answers the question incorrectly, change the color to red
            $(`#fnw-200`).removeClass(`answers`)
           $(`#fnw-200`).addClass(`wrong-answer`)
           totalPoints -= 200
+          $('.playerscore').html(`Score: ${totalPoints}`)
         }
     })
 $(`#fnw-300`).click(function(){
@@ -72,11 +74,13 @@ $(`#fnw-300`).click(function(){
           $(`#fnw-300`).removeClass(`answers`)
           $(`#fnw-300`).addClass(`right-answer`)
           totalPoints += 300
+          $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
             alert(`incorrect`)
            $(`#fnw-300`).removeClass(`answers`)
           $(`#fnw-300`).addClass(`wrong-answer`)
           totalPoints += 300
+          $('.playerscore').html(`Score: ${totalPoints}`)
         }
     })
 $(`#fnw-400`).click(function(){
@@ -89,11 +93,13 @@ $(`#fnw-400`).click(function(){
           $(`#fnw-400`).removeClass(`answers`)
           $(`#fnw-400`).addClass(`right-answer`)
           totalPoints += 400
+          $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
             alert(`incorrect`)
            $(`#fnw-400`).removeClass(`answers`)
           $(`#fnw-400`).addClass(`wrong-answer`)
           totalPoints += 400
+          $('.playerscore').html(`Score: ${totalPoints}`)
         }
     })    
 $(`#fnw-500`).click(function(){
@@ -106,11 +112,13 @@ if (question === "a") {
           $(`#fnw-500`).removeClass(`answers`)
           $(`#fnw-500`).addClass(`right-answer`)
           totalPoints += 500
+          $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
             alert(`incorrect`)
            $(`#fnw-500`).removeClass(`answers`)
           $(`#fnw-500`).addClass(`wrong-answer`)
           totalPoints += 500
+          $('.playerscore').html(`Score: ${totalPoints}`)
         }
     })
 // SCIENCE CAT QUESTIONS
@@ -124,11 +132,13 @@ if (question === "a") {
           $(`#sci-100`).removeClass(`answers`)
           $(`#sci-100`).addClass(`right-answer`)
           totalPoints += 100
+          $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
             alert(`incorrect`)
            $(`#sci-100`).removeClass(`answers`)
           $(`#sci-100`).addClass(`wrong-answer`)
           totalPoints -= 100
+          $('.playerscore').html(`Score: ${totalPoints}`)
         }
     })
 $(`#sci-200`).click(function(){
@@ -141,11 +151,13 @@ $(`#sci-200`).click(function(){
       $(`#sci-200`).removeClass(`answers`)
       $(`#sci-200`).addClass(`right-answer`)
       totalPoints += 200
+      $('.playerscore').html(`Score: ${totalPoints}`)
     } else {
         alert(`incorrect`)
        $(`#sci-200`).removeClass(`answers`)
       $(`#sci-200`).addClass(`wrong-answer`)
       totalPoints -= 200
+      $('.playerscore').html(`Score: ${totalPoints}`)
     }
 })
 $(`#sci-300`).click(function(){
@@ -158,11 +170,13 @@ if (question === "a") {
           $(`#sci-300`).removeClass(`answers`)
           $(`#sci-300`).addClass(`right-answer`)
           totalPoints += 300
+          $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
             alert(`incorrect`)
            $(`#sci-300`).removeClass(`answers`)
           $(`#sci-300`).addClass(`wrong-answer`)
           totalPoints -= 300
+          $('.playerscore').html(`Score: ${totalPoints}`)
         }
     })
 $(`#sci-400`).click(function(){
@@ -175,11 +189,13 @@ if (question === "a") {
           $(`#sci-400`).removeClass(`answers`)
           $(`#sci-400`).addClass(`right-answer`)
           totalPoints += 400
+          $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
             alert(`incorrect`)
            $(`#sci-400`).removeClass(`answers`)
           $(`#sci-400`).addClass(`wrong-answer`)
           totalPoints -= 400
+          $('.playerscore').html(`Score: ${totalPoints}`)
         }
     })
 $(`#sci-500`).click(function(){
@@ -192,11 +208,13 @@ if (question === "a") {
           $(`#sci-500`).removeClass(`answers`)
           $(`#sci-500`).addClass(`right-answer`)
           totalPoints += 500
+          $('.playerscore').html(`Score: ${totalPoints}`)
         } else {
             alert(`incorrect`)
-           $(`#sci-500`).removeClass(`answers`)
+            $(`#sci-500`).removeClass(`answers`)
           $(`#sci-500`).addClass(`wrong-answer`)
           totalPoints -= 500
+          $('.playerscore').html(`Score: ${totalPoints}`)
         }
     })
 // ANIMALS TRIVIA QUESTIONS
@@ -372,3 +390,5 @@ $(`#tnc-500`).click(function(){
       totalPoints += -500
     }
 })
+
+// $('.playerscore').html(`Score: ${totalPoints}`)
