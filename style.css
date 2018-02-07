@@ -21,7 +21,7 @@ button {
 .cat-btn {
     background-color:#141194;
     color: rgb(219, 218, 139);
-
+    box-shadow: 5px 5px 10px black;
 }
   /* .cat-1{
     display:flex;
@@ -43,21 +43,23 @@ button {
 .jeopradyboard {
  display:flex;
  justify-content: center;
- border: solid black;
+ border: ;
  padding: 40px;
  margin: 80px;
 }
 .wrong-answer {
-    background-color: red;
+    background-color: rgb(116, 72, 72);
     color: aliceblue;
     padding: 30px;
     width: 20vw;
+    /* cursor: not-allowed; */
 }
 .right-answer {
-    background-color: purple;
+    background-color: rgb(66, 112, 59);
     color: aliceblue;
     padding: 30px;
     width: 20vw;
+    /* cursor: not-allowed; */
   
 }
 .answers {
@@ -66,4 +68,7 @@ button {
     font-weight: bolder;
     padding: 30px;
     width: 20vw;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    cursor: pointer;
 }
