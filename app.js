@@ -149,9 +149,9 @@ if (question === "b") {
     })
 $(`#sci-200`).click(function(){
     const question = prompt(`Hale-Bopp is a classification of which type of small solar system body?
-    a. meteor
-    b. pluto
-    c. comet`)
+    a. What is meteor
+    b. What is pluto
+    c. What is comet`)
     if (question === "c") {
         alert(`correct`)
       $(`#sci-200`).removeClass(`answers`)
@@ -168,9 +168,9 @@ $(`#sci-200`).click(function(){
 })
 $(`#sci-300`).click(function(){
     const question = prompt(`In the US and Canada, one ton is a unit of measure that contains how many pounds?
-    a. 3000
-    b. 2000
-    c. 1000`)
+    a. What is 3000
+    b. What is 2000
+    c. What is 1000`)
 if (question === "b") {
             alert(`correct`)
           $(`#sci-300`).removeClass(`answers`)
@@ -187,9 +187,9 @@ if (question === "b") {
     })
 $(`#sci-400`).click(function(){
     const question = prompt(`The Molecule "hemoblobin" is used in which type of cells?"
-    a. Red blood cells
-    b. White blood cells
-    c. Blue blood cells`)
+    a. What is Red blood cells
+    b. What is White blood cells
+    c. What is Blue blood cells`)
 if (question === "a") {
             alert(`correct`)
           $(`#sci-400`).removeClass(`answers`)
@@ -206,9 +206,9 @@ if (question === "a") {
     })
 $(`#sci-500`).click(function(){
     const question = prompt(`Penicillin was discovered in 1928 by which Scottish scientist?
-    a. Alan MacMasters
-    b. Alexander Graham Bell
-    c. Sir Alexander Fleming`)
+    a. Who is Alan MacMasters
+    b. Who is Alexander Graham Bell
+    c. Who is Sir Alexander Fleming`)
 if (question === "c") {
             alert(`correct`)
           $(`#sci-500`).removeClass(`answers`)
@@ -226,10 +226,10 @@ if (question === "c") {
 // ANIMALS TRIVIA QUESTIONS
 
 $(`#anm-100`).click(function(){
-    const question = prompt(`anm question 100
-    a. 
-    b.
-    c.`)
+    const question = prompt(`This Chemical element gives the blood of a lobster a bluish tint.
+    a. What is copper
+    b. What is iron
+    c. What is nickle`)
 if (question === "a") {
         alert(`correct`)
       $(`#anm-100`).removeClass(`answers`)
@@ -238,7 +238,7 @@ if (question === "a") {
       $('.playerscore').html(`Score: ${totalPoints}`)
 
     } else {
-        alert(`incorrect`)
+        alert(`incorrect. The answer is Copper.`)
        $(`#anm-100`).removeClass(`answers`)
       $(`#anm-100`).addClass(`wrong-answer`)
       totalPoints -= 100
@@ -247,11 +247,11 @@ if (question === "a") {
     }
 })
 $(`#anm-200`).click(function(){
-    const question = prompt(`anm question 200
-    a. 
-    b.
-    c.`)
-    if (question === "a") {
+    const question = prompt(`This snakes untreated bite is almost 100% fate
+    a. What is King Cobra
+    b. What is Echis Carinatus
+    c. What is Black Mamba`)
+    if (question === "c") {
         alert(`correct`)
       $(`#anm-200`).removeClass(`answers`)
       $(`#anm-200`).addClass(`right-answer`)
@@ -259,7 +259,7 @@ $(`#anm-200`).click(function(){
       $('.playerscore').html(`Score: ${totalPoints}`)
 
     } else {
-        alert(`incorrect`)
+        alert(`incorrect. The answer is Black Mamba`)
        $(`#anm-200`).removeClass(`answers`)
       $(`#anm-200`).addClass(`wrong-answer`)
       totalPoints -= 200
@@ -268,11 +268,11 @@ $(`#anm-200`).click(function(){
     }
 })
 $(`#anm-300`).click(function(){
-    const question = prompt(`anm question 300
-    a. 
-    b.
-    c.`)
-    if (question === "a") {
+    const question = prompt(`Cynophobia is the fear of what kind of animal?
+    a. What is squirrel
+    b. What is dog
+    c. What is catepillar`)
+    if (question === "b") {
         alert(`correct`)
       $(`#anm-300`).removeClass(`answers`)
       $(`#anm-300`).addClass(`right-answer`)
@@ -280,7 +280,7 @@ $(`#anm-300`).click(function(){
       $('.playerscore').html(`Score: ${totalPoints}`)
 
     } else {
-        alert(`incorrect`)
+        alert(`incorrect. The answer is Dog`)
        $(`#anm-300`).removeClass(`answers`)
       $(`#anm-300`).addClass(`wrong-answer`)
       totalPoints -= 300
@@ -310,10 +310,10 @@ $(`#anm-400`).click(function(){
     }
 })
 $(`#anm-500`).click(function(){
-    const question = prompt(`anm question 500
-    a. 
-    b.
-    c.`)
+    const question = prompt(`A group of whales is called this.
+    a. What is a pod
+    b. What is a committee
+    c. What is a school`)
     if (question === "a") {
         alert(`correct`)
       $(`#anm-500`).removeClass(`answers`)
@@ -322,7 +322,7 @@ $(`#anm-500`).click(function(){
       $('.playerscore').html(`Score: ${totalPoints}`)
 
     } else {
-        alert(`incorrect`)
+        alert(`incorrect. The answer is Pod.`)
        $(`#anm-500`).removeClass(`answers`)
       $(`#anm-500`).addClass(`wrong-answer`)
       totalPoints -= 500
