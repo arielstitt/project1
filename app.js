@@ -26,14 +26,29 @@ $(`#final-answer`).click(function(){
     
     $(`.jeopradyboard`).empty()
     $(`.jeopradyboard`).append('<iframe width="560" height="315" src="https://www.youtube.com/embed/HBqoZaGKa_s?rel=0&amp;start=5&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>')
-   
-    player.addEventListener("onStateChange", function(state){
-        if(state === 0){
-            // the video is end, do something here.
-            prompt(`this is your final answer!`)    
-        }
-    });
-})
+ 
+        // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          videoId: 'HBqoZaGKa_s',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
 // FOOD AND WINE CAT QUESTIONS
 $(`#fnw-100`).click(function(){
     const question = prompt(`Malbec, sangiovese, and syrah are all types of what?
