@@ -17,6 +17,7 @@
         <img src="https://fontmeme.com/permalink/180207/355dd52645265262a1b94adf21509078.png" alt="Jeopardy Logo">
     </div>
     <div class="jeopradyboard">
+            <div id="player"></div>
     <!-- container for the board game -->
     <!-- <div class"game-board-grid" id="game-bord-container"> -->
         <!-- the category div with the corresponding column inside -->
@@ -102,7 +103,18 @@
             Score:
         </div>
     
-
+        <script>
+                // 2. This code loads the IFrame Player API code asynchronously.
+                var tag = document.createElement('script');
+          
+                tag.src = "https://www.youtube.com/iframe_api";
+                var firstScriptTag = document.getElementsByTagName('script')[0];
+                firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+          
+                // 3. This function creates an <iframe> (and YouTube player)
+                //    after the API code downloads.
+                var player; 
+              </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         
         <script src="app.js"></script>
