@@ -45,16 +45,30 @@ $(`#final-answer`).click(function () {
     //    the player should play for six seconds and then stop.
     function onPlayerStateChange(event) {
         if (event.data === 0) {
-            prompt(`Who is 
+            const question = prompt(`Who is 
             a. Who is Peter Davidson
             b. Who is Tom Baker
             c. Who is Tony Hanson`)
+        } else { }
+        if (question === "a") {
+            alert(`correct`)
+            $(`#fnw-100`).removeClass(`answers`)
+            $(`#fnw-100`).addClass(`right-answer`)
+            totalPoints += totalPoints
+            $('.playerscore').html(`Score: ${totalPoints}`)
+        } else {
+            alert(`Incorrect. The answer is Peter Davidson`)
+            //  if the user answers the question incorrectly, change the color to red
+            $(`#fnw-100`).removeClass(`answers`)
+            $(`#fnw-100`).addClass(`wrong-answer`)
+            totalPoints -= totalPoints
+            $('.playerscore').html(`Score: ${totalPoints}`)
         }
     }
     function stopVideo() {
         player.stopVideo();
     }
-   
+
     // // 2. This code loads the IFrame Player API code asynchronously.
     // $('body').append(`<script src="https://www.youtube.com/iframe_api" />`)
 
