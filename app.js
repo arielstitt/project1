@@ -24,7 +24,9 @@ $(`#final-answer`).one("click", function(){
 // FINAL QUESTION
 $(`#final-answer`).click(function(){
     prompt(`this is your final answer!`)
-    $(`.jeopradyboard`).remove()
+    $(`.jeopradyboard`).remove(`column`).add(`<p>WHY ISN'T THIS WORKING???</p>`)
+    // $(`.jeopradyboard`).append("<iframe width="560" height="315" src="https://www.youtube.com/embed/HBqoZaGKa_s?rel=0&amp;start=5" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>")
+    
 })
 // FOOD AND WINE CAT QUESTIONS
 $(`#fnw-100`).click(function(){
