@@ -18,6 +18,14 @@ $(".400-points").one("click", function(){
 $(".500-points").one("click", function(){
     $(this).attr("disabled", true);
 });
+$(`#final-answer`).one("click", function(){
+    $(this).attr("disabled", true);
+});
+// FINAL QUESTION
+$(`#final-answer`).click(function(){
+    prompt(`this is your final answer!`)
+    $(`.jeopradyboard`).remove()
+})
 // FOOD AND WINE CAT QUESTIONS
 $(`#fnw-100`).click(function(){
     const question = prompt(`Malbec, sangiovese, and syrah are all types of what?
@@ -431,7 +439,7 @@ $(`#tnc-500`).click(function(){
         alert(`incorrect. The answer is Dustin Hoffman`)
        $(`#tnc-500`).removeClass(`answers`)
       $(`#tnc-500`).addClass(`wrong-answer`)
-      totalPoints += -500
+      totalPoints -= 500
       $('.playerscore').html(`Score: ${totalPoints}`)
     }
 })
