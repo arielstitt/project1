@@ -332,11 +332,11 @@ $(`#anm-500`).click(function(){
 })
 // TV and cinema category
 $(`#tnc-100`).click(function(){
-    const question = prompt(`tnc question 100
-    a. 
-    b.
-    c.`)
-    if (question === "a") {
+    const question = prompt(`"I'd buy that for a dollar", is a catchphrase from what 1987 action movie set in Detroit, Michigan
+    a. What is Lethal Weapon
+    b. What is Robocop
+    c. What is Masters of the Universe`)
+    if (question === "b") {
         alert(`correct`)
       $(`#tnc-100`).removeClass(`answers`)
       $(`#tnc-100`).addClass(`right-answer`)
@@ -344,7 +344,7 @@ $(`#tnc-100`).click(function(){
       $('.playerscore').html(`Score: ${totalPoints}`)
 
     } else {
-        alert(`incorrect`)
+        alert(`incorrect. The answer is Robocop`)
        $(`#tnc-100`).removeClass(`answers`)
       $(`#tnc-100`).addClass(`wrong-answer`)
       totalPoints -= 100
@@ -353,11 +353,11 @@ $(`#tnc-100`).click(function(){
     }
 })
 $(`#tnc-200`).click(function(){
-    const question = prompt(`tnc question 200
-    a. 
-    b.
-    c.`)
-    if (question === "a") {
+    const question = prompt(`This animated sci-fi sitcome is about the misadventures of a mad scientist and his grandson.
+    a. Who is Doc Brown and Marty
+    b. What is Hubert j, Farnsworth and Philip J. Fry
+    c. Who is Rick and Morty`)
+    if (question === "c") {
         alert(`correct`)
       $(`#tnc-200`).removeClass(`answers`)
       $(`#tnc-200`).addClass(`right-answer`)
@@ -365,7 +365,7 @@ $(`#tnc-200`).click(function(){
       $('.playerscore').html(`Score: ${totalPoints}`)
 
     } else {
-        alert(`incorrect`)
+        alert(`incorrect. The answer is Rick and Morty.`)
        $(`#tnc-200`).removeClass(`answers`)
       $(`#tnc-200`).addClass(`wrong-answer`)
       totalPoints -= 200
@@ -374,10 +374,10 @@ $(`#tnc-200`).click(function(){
     }
 })
 $(`#tnc-300`).click(function(){
-    const question = prompt(`tnc question 300
-    a. 
-    b.
-    c.`)
+    const question = prompt(`The Looney Tunes' character FogHorn J. Leghorn is this type of animal?"
+    a. What is Rooster
+    b. What is a Cat
+    c.What is a Rabbit`)
     if (question === "a") {
         alert(`correct`)
       $(`#tnc-300`).removeClass(`answers`)
@@ -386,7 +386,7 @@ $(`#tnc-300`).click(function(){
       $('.playerscore').html(`Score: ${totalPoints}`)
 
     } else {
-        alert(`incorrect`)
+        alert(`incorrect. The answer is Rooster`)
        $(`#tnc-300`).removeClass(`answers`)
       $(`#tnc-300`).addClass(`wrong-answer`)
       totalPoints -= 300
@@ -395,11 +395,11 @@ $(`#tnc-300`).click(function(){
     }
 })
 $(`#tnc-400`).click(function(){
-    const question = prompt(`tnc question 400
-    a. 
-    b.
-    c.`)
-    if (question === "a") {
+    const question = prompt(`John Candy's character was named ____, in the comedy movie, "Planes, Trains, and Automobiles"
+    a. What is Mel Griffin
+    b. What is Del Griffin
+    c. What is Peter Griffin`)
+    if (question === "b") {
         alert(`correct`)
       $(`#tnc-400`).removeClass(`answers`)
       $(`#tnc-400`).addClass(`right-answer`)
@@ -407,7 +407,7 @@ $(`#tnc-400`).click(function(){
       $('.playerscore').html(`Score: ${totalPoints}`)
 
     } else {
-        alert(`incorrect`)
+        alert(`incorrect. The answer is Del Griffin.`)
        $(`#tnc-400`).removeClass(`answers`)
       $(`#tnc-400`).addClass(`wrong-answer`)
       totalPoints -= 400
@@ -416,10 +416,10 @@ $(`#tnc-400`).click(function(){
     }
 })
 $(`#tnc-500`).click(function(){
-    const question = prompt(`tnc question 500
-    a. 
-    b.
-    c.`)
+    const question = prompt(`This actor played the leading role in the 1982 American comedy Tootsie
+    a. Dustin Hoffman
+    b. Gene Hackman
+    c. Robert Redford`)
     if (question === "a") {
         alert(`correct`)
       $(`#tnc-500`).removeClass(`answers`)
@@ -428,7 +428,7 @@ $(`#tnc-500`).click(function(){
       $('.playerscore').html(`Score: ${totalPoints}`)
 
     } else {
-        alert(`incorrect`)
+        alert(`incorrect. The answer is Dustin Hoffman`)
        $(`#tnc-500`).removeClass(`answers`)
       $(`#tnc-500`).addClass(`wrong-answer`)
       totalPoints += -500
