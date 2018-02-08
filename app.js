@@ -82,7 +82,7 @@ $(`#fnw-300`).click(function(){
             alert(`incorrect. The answer is England.`)
            $(`#fnw-300`).removeClass(`answers`)
           $(`#fnw-300`).addClass(`wrong-answer`)
-          totalPoints += 300
+          totalPoints -= 300
           $('.playerscore').html(`Score: ${totalPoints}`)
         }
     })
@@ -107,7 +107,7 @@ $(`#fnw-400`).click(function(){
         }
     })    
 $(`#fnw-500`).click(function(){
-        const question = prompt(`This Northwest staple is made from crushed durum wheat
+        const question = prompt(`This Northwest African staple is made from crushed durum wheat
         a. Fufu
         b. Couscous
         c. Injera
@@ -122,7 +122,7 @@ if (question === "b") {
             alert(`incorrect. The answer is Couscous`)
            $(`#fnw-500`).removeClass(`answers`)
           $(`#fnw-500`).addClass(`wrong-answer`)
-          totalPoints += 500
+          totalPoints -= 500
           $('.playerscore').html(`Score: ${totalPoints}`)
         }
     })

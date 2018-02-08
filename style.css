@@ -4,8 +4,7 @@ body{
 .jeopardy-logo {
     display: flex;
     justify-content: center;
-    /* background: lemonchiffon; */
-    padding: 5%;
+    padding-top: 10%;
 }
 button {
     background-color: blue;
@@ -29,10 +28,6 @@ button {
     color: rgb(219, 218, 139);
     box-shadow: 5px 5px 10px black;
 }
-  /* .cat-1{
-    display:flex;
-    flex-direction: column;
-}  */
 #game-bord-container{
     display: flex;
     flex-direction: row;
@@ -41,31 +36,24 @@ button {
     display: flex;
     flex-direction: column;
 } 
-/* #stuff{
-    display: flex;
-    flex-direction: row;
-} */
 
 .jeopradyboard {
  display:flex;
  justify-content: center;
  border: ;
- padding: 40px;
- margin: 80px;
+ margin: 40px;
 }
 .wrong-answer {
     background-color: rgb(116, 72, 72);
     color: aliceblue;
     padding: 30px;
     width: 20vw;
-    /* cursor: not-allowed; */
 }
 .right-answer {
     background-color: rgb(66, 112, 59);
     color: aliceblue;
     padding: 30px;
     width: 20vw;
-    /* cursor: not-allowed; */
   
 }
 .answers {
