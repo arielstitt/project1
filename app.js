@@ -23,10 +23,16 @@ $(`#final-answer`).one("click", function(){
 });
 // FINAL QUESTION
 $(`#final-answer`).click(function(){
-    prompt(`this is your final answer!`)
-    $(`.jeopradyboard`).remove(`column`).add(`<p>WHY ISN'T THIS WORKING???</p>`)
-    // $(`.jeopradyboard`).append("<iframe width="560" height="315" src="https://www.youtube.com/embed/HBqoZaGKa_s?rel=0&amp;start=5" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>")
     
+    $(`.jeopradyboard`).empty()
+    $(`.jeopradyboard`).append('<iframe width="560" height="315" src="https://www.youtube.com/embed/HBqoZaGKa_s?rel=0&amp;start=5&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>')
+   
+    player.addEventListener("onStateChange", function(state){
+        if(state === 0){
+            // the video is end, do something here.
+            prompt(`this is your final answer!`)    
+        }
+    });
 })
 // FOOD AND WINE CAT QUESTIONS
 $(`#fnw-100`).click(function(){
